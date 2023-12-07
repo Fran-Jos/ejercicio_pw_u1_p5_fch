@@ -1,0 +1,29 @@
+.container{
+  
+    align-items: center;
+    display: grid;
+    padding-top: 75px;
+    padding-left: 900px;
+    grid-template-columns: repeat(3 , 75px);
+    grid-template-rows: 60px repeat(5, 75px);
+    border-radius: 32px;
+   
+    
+}
+
+button{
+    background-color: aquamarine;
+    padding: 40px;
+}
+
+button:hover{
+    background-color: rgb(12, 66, 62);
+    
+}
+
+label{
+    display: block;
+    background-color: blanchedalmond;
+    align-items: center;
+    text-align: center;
+}
